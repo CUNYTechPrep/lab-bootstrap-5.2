@@ -1,1 +1,60 @@
 /* Add custom css styles here */
+header {
+  background-image: url('../images/coffee-biscuits.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.coffee-title {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.col > img {
+  border-radius: 7rem;
+}
+
+.col > h3 {
+  margin-top: 2rem;
+}
+
+.about-img {
+  width: 13rem;
+  border-radius: 7rem;
+}
+
+/* Alternating HTML */
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cookie-img {
+    display: block;
+    margin: auto;
+  }
+  .cookie-title {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cookie-title {
+    margin-top: 3rem;
+  }
+
+  .contact-info {
+    margin-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .about-img {
+    margin-bottom: 2rem;
+  }
+}
