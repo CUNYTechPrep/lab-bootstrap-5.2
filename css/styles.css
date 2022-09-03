@@ -1,1 +1,27 @@
 /* Add custom css styles here */
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+header {
+	height: 400px;
+	background-image: url(../images/coffee-biscuits.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.header-text {
+	background-color: rgba(0, 0, 0, 0.55);
+	padding: 25px;
+	border-radius: 12px;
+}
+
+.about-section {
+	background-color: #f8f9fa;
+}
