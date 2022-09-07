@@ -3,39 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Cookie Store</title>
   </head>
-  <body>
-    <header>
-      <h1>Cookie Store</h1>
-      <p>Buy our awesome cookies. All proceeds go to charity!</p>
+  <body class="">
+    <header class = "header d-flex justify-content-center">
+        <div class= "box m-auto text-center ">
+      <h1 class="display white  text-white">Cookie Store</h1>
+      <p class="text-center text-white">Buy our awesome cookies. All proceeds go to charity!</p>
+        </div>
     </header>
 
-    <main>
-      <h2>Our Cookies</h2>
+    <div class="container text-center bg-white">
+      <h2 class="text-primary bold pt-5">Our Cookies</h2>
       <p>Checkout our latest and delicious cookies.</p>
 
-      <h3>Mint Chocolate</h3>
-      <p>Tasty mint chocolate cookies</p>
-      <img src="images/mint-cookie.png" alt="A single mint chocolate cookie" />
-
-      <h3>Peanut Butter</h3>
-      <p>Yummy peanut buttery goodness</p>
-      <img src="images/peanut-cookie.png" alt="A single peanut butter cookie" />
-
-      <h3>Oatmeal</h3>
-      <p>Your fitness instructors favorite</p>
-      <img src="images/oatmeal-cookie.png" alt="A single oatmeal cookie" />
-
-      <h3>Chocolate Chip</h3>
-      <p>Gooey chocolate you'll love</p>
-      <img src="images/chip-cookie.png" alt="A single chocolate chip cookie" />
-    </main>
-    <div>
-      <h2>About us</h2>
-
-      <img src="images/bakers.svg" alt="illustrations of two people baking" />
       <div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+      <h3><span class="text-info"> Mint </span>Chocolate</h3>
+      <p>Tasty mint chocolate cookies</p>
+      <img src="images/mint-cookie.png" class ="img-fluid rounded-circle" alt="A single mint chocolate cookie" />
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+        <h3><span class="text-danger">Peanut</span> Butter</h3>
+          <p>Yummy peanut</p>
+          <p>buttery goodness</p>
+      <img src="images/peanut-cookie.png" class ="img-fluid rounded-circle" alt="A single peanut butter cookie" />
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+        <h3><span class="text-warning">Oat</span>meal</h3>
+          <p>Your fitness</p>
+          <p>instructor's favorite</p>
+      <img src="images/oatmeal-cookie.png" class ="img-fluid rounded-circle" alt="A single oatmeal cookie" />
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <h3><span class="text-secondary">Chocolate</span> Chip</h3>
+      <p>Gooey chocolate you'll love</p>
+      <img src="images/chip-cookie.png"  class ="img-fluid rounded-circle" alt="A single chocolate chip cookie" />
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center bg-light mt-3 py-5">
+      <h2 class = "pt-1 ml-3 text-primary">About us</h2>
+
+      <div class = "row mb-3">
+        <div class = "col-1">
+      <img class = "img-fluid img-thumbnail" src="images/bakers.svg" alt="illustrations of two people baking" />
+      </div>
+        <div class = "col-9">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -44,14 +66,18 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </div>
+      </div>
     </div>
-    <footer>
-      <h2>Contact us</h2>
-      <div>
+
+
+    <footer class=" text-center text-white bg-primary">
+      <h2 class="pt-5">Contact us</h2>
+      <div class="pb-5">
         100 Broadway Avenue,<br />
         New York, NY 10001 <br />
         (212) 555-1234
       </div>
     </footer>
+
   </body>
 </html>

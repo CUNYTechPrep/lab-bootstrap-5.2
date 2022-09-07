@@ -1,1 +1,20 @@
 /* Add custom css styles here */
+
+.box {
+    background-color: black;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+    horiz-align: center;
+    vertical-align: center;
+}
+
+
+.header {
+    height: 400px;
+    background-image: url("/images/coffee-biscuits.jpg");
+    background-position: center;
+    background-size: cover;
+}
