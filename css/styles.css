@@ -1,1 +1,42 @@
 /* Add custom css styles here */
+body {
+    background-color: burlywood;
+}
+header{
+    height: 1000px;
+    background-image: url("/Users/andi/Desktop/lab-bootstrap-5.2/images/coffee-biscuits.jpg");
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 490px;
+    font-size: 500%;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#peopleImage{
+   width: 75%;
+   height: 75%;
+   border-radius: 50%;
+}
+footer{
+    background-color: royalblue;
+}
