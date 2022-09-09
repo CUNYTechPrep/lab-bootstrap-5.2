@@ -1,1 +1,103 @@
 /* Add custom css styles here */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Space Mono', monospace;
+}
+img{
+    border-radius:50%;
+}
+/* alternating page styling */
+.alt-store-name{
+    padding: 100px 0 10px 0;
+}
+.cookie{
+    padding:40px 0;
+    align-items: center;
+}
+
+/* rgular page styling */
+/* header */
+.header-section{
+    background-image: url("../coffee.jpg");
+    background-size:cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height:400px;
+}
+
+.store-moto{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.6);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    padding:30px;
+    border-radius:10px;
+}
+.store-moto p{
+    font-size:22px;
+}
+.store-moto h1{
+    font-size:42px;
+}
+/* main cookie section */
+.main-section{
+    padding:60px 30px;
+}
+.cookies{
+    padding-top:40px;
+}
+.high-cookie{
+    transform: translatey(-10%);
+}
+/* about us */
+.about-section{
+    background-color: #EDF2F4;
+    display:inline-block;
+}
+.about-us{
+    padding:50px 0 0 0;
+}
+.about-text-img{
+   align-items: center;
+   padding:0 40px 40px 40px;
+}
+.baking-img{
+    width:200px;
+}
+
+/* footer */
+.contact-section{
+    background-color:#0077B6;
+    color:white;
+}
+.contact-us{
+    padding: 50px 0px 5px 0px;
+}
+.address{
+    padding-bottom:50px;
+}
+/* mid screen */
+@media screen and (max-width: 1150px){
+    .high-cookie{
+        transform: translatey(0);
+    }
+    .high-cookie, .low-cookie{
+        padding:50px;
+    }
+}
+@media screen and (max-width: 900px){
+    .high-cookie, .low-cookie{
+        padding:30px;
+    }
+}
+/* mobile */
+@media screen and (max-width: 690px){
+    .baking-img{
+        width:120px;
+        
+    }
+}
+
