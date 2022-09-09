@@ -1,1 +1,49 @@
 /* Add custom css styles here */
+header {
+  height: 400px;
+  background-image: url("../images/cookies.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  color: black;
+  text-align: center;
+  background-color: rgba(210, 210, 210, 0.8);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.intro {
+  text-align: center;
+  margin: 50px;
+}
+
+.about {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: rgb(239, 239, 239);
+}
+
+.about h2 {
+  text-align: center;
+  padding: 15px;
+}
+
+#baker-img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: rgb(205, 197, 235);
+  text-align: center;
+  padding: 40px;
+}
