@@ -1,1 +1,9 @@
 /* Add custom css styles here */
+header {
+    height: 400px;
+    text-align: center;
+}
+
+.cookie {
+    border-radius: 50%;
+}
