@@ -1,1 +1,89 @@
-/* Add custom css styles here */
+* {
+    font-family: 'Montserrat', sans-serif;
+}   
+
+main h2, main h3, footer h2, div h2 {
+    font-weight: bolder;
+}
+
+header {
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.cookie {
+    margin: 5%;
+    border-radius: 50%;
+
+}
+
+.heading {
+    background-image: url("../images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.color {
+    width: 50%;
+    height: 30%;
+    background: #272727;
+    opacity: .5;
+    position: absolute;
+    border-radius: 10%;
+}
+
+.cookie:hover {
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+
+header h1, header p {
+    color: white;
+    z-index: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: #056dfd;
+    padding: 3%;
+    color: white;
+}
+
+footer div {
+    font-weight: bold;
+}
+
+div h2 {
+    text-align: center;
+}
+
+#bakers {
+    border-radius: 50%;
+    height: auto;
+    width: 50%;
+}
+
+#about-us {
+    background-color: #f8f9fa;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+#about-us-text {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-md-3.offset-md-2.order-md-1, .col-md-3.offset-md-2.order-md-0 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
