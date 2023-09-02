@@ -21,17 +21,16 @@
     font-size: 14px;
 }
 
+.cookie{
+    clip-path: circle();
+}
+
 
 @media (min-width: 768px) {
     .custom-font {
         font-size: 25px;
     }
-    .intro-text{
-        font-size: 60px;
-    }
-    .intro-text-bottom{
-        font-size: 25px; 
-    }
+
 }
 
 /* Font size for large screens (lg) */
@@ -40,9 +39,12 @@
         font-size: 40px;
     }
     .intro-text{
-        font-size: 80px;
+        font-size: 40px;
     }
     .intro-text-bottom{
-        font-size: 40px;
+        font-size: 25px;
+    }
+    .cookie{
+        width: 85%;
     }
 }
