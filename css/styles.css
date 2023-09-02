@@ -8,13 +8,13 @@
     object-fit: contain;
 }
 
-.intro-text, .intro-text-bottom {
+.intro-text, .intro-text-bottom, .about-intro {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.intro-text{
+.intro-text, .about-intro{
     font-size: 30px;
 }
 .intro-text-bottom{
@@ -25,12 +25,34 @@
     clip-path: circle();
 }
 
+.about-container{
+    margin-top: 40px;
+    background-color: rgb(97, 92, 92, .1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-text{
+    font-size: 16px;
+    word-break: break-all;
+}
+
+.cooking-img{
+    clip-path: circle();
+    width: 80%;
+}
 
 @media (min-width: 768px) {
     .custom-font {
         font-size: 25px;
     }
-
+    .cooking-img{
+        width: 50%;
+    }
+    .about-text{
+        font-size: 20px;
+    }
 }
 
 /* Font size for large screens (lg) */
@@ -38,7 +60,7 @@
     .custom-font {
         font-size: 40px;
     }
-    .intro-text{
+    .intro-text, .about-intro{
         font-size: 40px;
     }
     .intro-text-bottom{
