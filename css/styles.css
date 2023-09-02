@@ -1,1 +1,10 @@
 /* Add custom css styles here */
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.img-view{  
+    height: 40%;
+}
