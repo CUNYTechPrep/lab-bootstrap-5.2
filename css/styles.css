@@ -1,8 +1,48 @@
 /* Add custom css styles here */
-*{
+* {
     overflow-x: hidden;
 }
 
-.text-box{
+.text-box {
     font-size: 18px;
+    object-fit: contain;
+}
+
+.intro-text, .intro-text-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    font-size: 30px;
+}
+.intro-text-bottom{
+    font-size: 14px;
+}
+
+
+@media (min-width: 768px) {
+    .custom-font {
+        font-size: 25px;
+    }
+    .intro-text{
+        font-size: 60px;
+    }
+    .intro-text-bottom{
+        font-size: 25px; 
+    }
+}
+
+/* Font size for large screens (lg) */
+@media (min-width: 992px) {
+    .custom-font {
+        font-size: 40px;
+    }
+    .intro-text{
+        font-size: 80px;
+    }
+    .intro-text-bottom{
+        font-size: 40px;
+    }
 }
