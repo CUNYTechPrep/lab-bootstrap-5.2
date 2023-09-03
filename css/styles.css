@@ -1,1 +1,67 @@
-/* Add custom css styles here */
+/* Custom styles for the header section */
+.custom-header {
+    height: 400px; /* Set the fixed height */
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+.main-footer{
+
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg'); 
+
+
+}
+
+  .custom-footer {
+    height: 400px; /* Set the fixed height */
+    background-image: url('https://img.freepik.com/premium-photo/color-background-nice-wallpaper-card_218381-8025.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .custom-diver {
+    height: 400px; /* Set the fixed height */
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2545.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .custom-diver img {
+    max-width: 100%; 
+    max-height: 200px; 
+    width: auto; 
+    height: auto; 
+  }
+  
+  .custom-header h1 {
+    color: #fff;
+    font-size: 36px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px; 
+  }
+  
+  .custom-header p {
+    color: #fff; 
+    font-size: 18px; 
+  }
+  
