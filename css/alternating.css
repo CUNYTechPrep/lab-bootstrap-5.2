@@ -8,6 +8,10 @@ main{
     margin-bottom: 18px;
 }
 
+.intro-text, .intro-text-bottom{
+    display: flex;
+}
+
 .intro-text{
     font-size: 30px;
 }
