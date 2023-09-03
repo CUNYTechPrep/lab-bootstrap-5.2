@@ -1,0 +1,49 @@
+main{
+    text-align: center;
+}
+
+.cookie{
+    clip-path: circle();
+    width: 60%;
+    margin-bottom: 18px;
+}
+
+.intro-text, .intro-text-bottom{
+    display: flex;
+}
+
+.intro-text{
+    font-size: 30px;
+}
+.intro-text-bottom{
+    font-size: 14px;
+}
+
+
+@media (min-width: 768px) {
+    .cookie{
+        margin-left: auto;
+        width: 55%;
+    }
+    .intro-text{
+        margin-bottom: auto;
+        font-size: 27px;
+    }
+    .intro-text-bottom{
+        font-size: 16px;
+    }
+
+}
+
+/* Font size for large screens (lg) */
+@media (min-width: 992px) {
+    .intro-text{
+        font-size: 40px;
+    }
+    .intro-text-bottom{
+        font-size: 20px;
+    }
+    .cookie{
+        width: 75%;
+    }
+}

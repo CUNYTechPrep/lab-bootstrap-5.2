@@ -1,1 +1,89 @@
 /* Add custom css styles here */
+* {
+    overflow-x: hidden;
+}
+
+.text-box {
+    font-size: 18px;
+    object-fit: contain;
+}
+
+.intro-text, .intro-text-bottom, .about-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text, .about-intro{
+    font-size: 30px;
+}
+.intro-text-bottom{
+    font-size: 14px;
+}
+
+.cookie{
+    clip-path: circle();
+}
+
+.about-container{
+    margin-top: 40px;
+    background-color: rgb(97, 92, 92, .1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-text{
+    font-size: 16px;
+    word-break: break-all;
+}
+
+.cooking-img{
+    clip-path: circle();
+    width: 80%;
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: brown
+}
+
+@media (min-width: 768px) {
+    .custom-font {
+        font-size: 25px;
+    }
+    .cooking-img{
+        width: 50%;
+    }
+    .about-text{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+
+/* Font size for large screens (lg) */
+@media (min-width: 992px) {
+    .custom-font {
+        font-size: 40px;
+    }
+    .intro-text, .about-intro{
+        font-size: 40px;
+    }
+    .intro-text-bottom{
+        font-size: 25px;
+    }
+    .cookie{
+        width: 85%;
+    }
+    footer{
+        font-size: 28px;
+    }
+}
