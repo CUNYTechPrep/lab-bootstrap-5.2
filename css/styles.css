@@ -1,1 +1,61 @@
 /* Add custom css styles here */
+
+header {
+    height: 400px;  /* Fixed height */
+    background-image: url("../images/coffee-biscuits.jpg");
+    background-size: cover;  /* Cover background-size */
+    display: flex;  /* Using flexbox to center content */
+    justify-content: center;  /* Horizontally center */
+    align-items: center;  /* Vertically center */
+}
+
+header h1 {
+    text-align: center;  /* Center the text within the title */
+}
+
+
+.header-box {
+    background-color: rgba(0, 0, 0, 0.7);  /* Translucent black */
+    padding: 10px 20px;  /* Some padding to give space around the content */
+    border-radius: 10px;  /* Rounded edges */
+    display: inline-block;  /* Makes the background fit to the content */
+}
+
+.header-box h1 {
+    color: white;  /* White text color for h1 */
+}
+
+.header-box p {
+    color: white;  /* White text color for p */
+}
+
+
+.profile-img {
+    border-radius: 50%;
+    width: 100%; /* this ensures the image fits its container */
+    max-width: 150px; /* you can adjust this value as needed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section {
+    background-color: #f5f5f5;  /* Make the box light grey */
+    padding: 20px;  /* Add some padding around the content */
+    border-radius: 10px;  /* Optional: Add rounded corners to the box */
+}
+
+.about-section p {
+    line-height: 1.5;  
+}
+.about-section h2 {
+    text-align: center;  /* Center the "About us" text */
+}
+
+
+footer {
+    background-color: blue;  /* Blue background for the footer */
+    color: white;  /* White text color for all elements inside the footer */
+    text-align: center;  /* Center the text */
+    padding: 20px;  /* Add some padding for spacing */
+}
