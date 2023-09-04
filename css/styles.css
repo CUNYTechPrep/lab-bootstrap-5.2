@@ -1,1 +1,28 @@
 /* Add custom css styles here */
+header{
+    height: 400px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/coffee-biscuits.jpg);
+}
+
+.titleSlogan{
+    border-radius: 25px;
+    background: rgba(16,16,16, 0.5);
+    width: 50%;
+    padding: 10px;
+}
+
+.row{
+    padding: 20px 0;
+    margin: 20px 0px;
+}
+.cookiesSection{
+    padding: 20px;
+}
+
+.cookieImg{
+    border-radius: 50%;
+}
