@@ -1,1 +1,69 @@
 /* Add custom css styles here */
+.title{
+    display: grid;
+    place-items: center;
+    height: 400px;
+    background-image: url("https://img.freepik.com/free-photo/lot-chocolate-chip-cookies-arranged-circle-white-background-with-copy-space_181624-17017.jpg?w=2000");
+}  
+
+.title-text{
+    background-color: lightgrey ;
+    opacity: 90%;
+    text-align: center;
+    color: black;
+    
+}
+
+.body-title{
+    text-align: center;
+    padding: 30px;
+}
+
+.footer{
+    background-color: blue;
+    padding: 40px;
+}
+
+.footer-title{
+    text-align: center;
+    color: white;
+    
+    
+    
+}
+
+.footer-text{
+    text-align: center;
+    color: white;
+}
+
+.aboutus{
+    background-color: rgba(211, 211, 211, 0.418);
+    padding: 20px;
+    
+}
+.aboutus-title{
+    text-align: center;
+
+}
+.aboutus-body{
+    display: flex;
+    font-size: small;
+    padding: 20px;
+}
+.aboutus-img{
+    width: 80px;
+    height: 80px; 
+    border-radius: 80%; 
+    object-fit: cover; 
+    margin-right: 10px; 
+
+}
+img {
+    border-radius: 100%;
+}
+
+.row{
+    text-align: center;
+    padding: 20px;
+}
