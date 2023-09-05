@@ -26,3 +26,19 @@ header{
 .cookieImg{
     border-radius: 50%;
 }
+
+.aboutusHeading{
+    padding: 20px 0px;
+}
+
+.aboutusImage{
+    border-radius: 50%;
+    width: 60%;
+}
+
+footer{
+    padding: 20px 0px;
+    color: white;
+    background-color: #076DF2;
+    text-align: center;
+}
