@@ -10,7 +10,7 @@
 }
 
 header {
-    background-image: url('/images/coffee-biscuits.jpg');
+    background-image: url('https://github.com/mariiaonokhina/lab-bootstrap-5.2/blob/main/images/coffee-biscuits.jpg?raw=true');
     background-size: cover;
     position: relative;
     top: -15vh;
