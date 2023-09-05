@@ -1,1 +1,10 @@
 /* Add custom css styles here */
+
+.header {
+    background-image: url("lab-bootstrap-5.2\images\coffee-biscuits.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 400px;
+    text-align: center;
+    padding: 70px 0;
+}
