@@ -46,7 +46,7 @@ header {
 .cookie-image {
     border-radius: 50%;
     position: relative;
-    height: 80%;
+    height: 50%;
 }
 
 .about-us {
@@ -80,6 +80,22 @@ footer {
     .bakers-image {
         height: 25vh;
     }
+
+    .cookie {
+        position: relative;
+        height: fit-content;
+        width: 100% !important;
+    }
+
+    .cookie-image-container {
+        height: fit-content;
+        width: fit-content !important;
+    }
+
+    .cookie-description {
+        height: fit-content;
+        width: fit-content !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -95,5 +111,11 @@ footer {
 
     .bakers-image {
         height: 18vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cookie {
+        flex-direction: column;
     }
 }
