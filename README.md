@@ -1,4 +1,4 @@
-# Bootstrap 5.2 Lab
+# CUNY Tech Prep Bootstrap 5.2 Lab by Mariia Onokhina (Section: Tues 6:30 pm - 9 pm)
 
 ## Build a responsive cookie store web page
 
