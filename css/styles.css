@@ -53,7 +53,7 @@ header {
     position: relative;
     top: -15vh;
     background-color: aliceblue;
-    height: fit-content;
+    height: 45vh;
 }
 
 .about-us-contents {
@@ -90,6 +90,7 @@ footer {
 
     .about-us {
         padding: 4vh 0vw;
+        height: fit-content;
     }
 
     .bakers-image {
