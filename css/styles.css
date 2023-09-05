@@ -53,7 +53,7 @@ header {
     position: relative;
     top: -15vh;
     background-color: aliceblue;
-    height: 45vh;
+    height: fit-content;
 }
 
 .about-us-contents {
@@ -70,4 +70,29 @@ footer {
     height: 35vh;
     position: relative;
     top: -15vh;
+}
+
+@media only screen and (max-width: 992px) {
+    .cookies-container {
+        row-gap: 8vh;
+    }
+
+    .bakers-image {
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slogan-container {
+        padding: 3vh;
+        text-align: center;
+    }
+
+    .about-us {
+        padding: 4vh 0vw;
+    }
+
+    .bakers-image {
+        height: 18vh;
+    }
 }
