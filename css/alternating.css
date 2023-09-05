@@ -1,0 +1,19 @@
+.full-page {
+    padding: 50px;
+    text-align: center;
+}
+
+.cookies {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie {
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.cookies img {
+    border-radius: 100%;
+}
