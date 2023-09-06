@@ -6,25 +6,25 @@
 -->
 
 <!--
-TITLE: Include your section in the pull request title
+TITLE: Web Development Fall 2023 Wednesday 6:30pm - 9:00pm ET
  -->
 
 ## What section are you in:
 
 - [ ] Tuesday
-- [ ] Wednesday
+- [X] Wednesday
 - [ ] Thursday
 - [ ] Friday 3pm
 - [ ] Friday 6pm
 
 **Is the solution complete?**
 
-[Yes/No]
+[Yes]
 
 **Did you run into any problems?**
 
-[Describe...]
+[No]
 
 **Did you collaborate with others on this solution?**
 
-<!-- Provide collaborators github usernames -->
+No
