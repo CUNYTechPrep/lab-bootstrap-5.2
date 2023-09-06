@@ -19,7 +19,7 @@ TITLE: Include your section in the pull request title
 
 **Is the solution complete?**
 
-[Yes/No]
+[Yes]
 
 **Did you run into any problems?**
 
@@ -27,4 +27,6 @@ TITLE: Include your section in the pull request title
 
 **Did you collaborate with others on this solution?**
 
-<!-- Provide collaborators github usernames -->
+<!--
+  No, however I used a lot of resources from W3Schools: https://www.w3schools.com/howto/howto_css_rounded_images.asp
+-->
