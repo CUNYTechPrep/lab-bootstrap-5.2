@@ -1,1 +1,56 @@
 /* Add custom css styles here */
+/** Questions 1 and 2 CSS*/
+* {
+   font-family: 'Inter', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+.col-sm-12 > img {
+   border-radius: 100%; 
+}
+
+.header{
+   text-align: center;
+}
+
+.header-text {
+   position: absolute; 
+   display: inline-block;
+   background-color: rgb(85, 85, 85);
+   color: white;
+   border-radius: 25%;
+   font-size: x-large;
+   opacity: 0.75;
+   justify-content: center;
+   bottom: 50%;
+   left: 30%;
+   
+}
+
+.header-image {
+   max-width: 100%;
+}
+.images {
+   display: flex;
+   max-width: 90%;
+   border-radius: 25%;
+}
+footer {
+   text-align: center;
+   background-color: blue;
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/******    Question 3 CSS                                     */
+.cookie-image {
+   border-radius: 100%;
+   
+}
