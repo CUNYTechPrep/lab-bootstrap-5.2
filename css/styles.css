@@ -1,1 +1,29 @@
 /* Add custom css styles here */
+header{
+    text-align: center;
+    height: 400px;
+}
+
+.smallerImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #026efe;;
+}
+
+.about {
+    background-color: #f8f9fb;
+}
+
+.imgs{
+    border-radius: 50%;
+}
+.img-fluid {
+    position: static;
+}
