@@ -23,7 +23,9 @@ TITLE: Include your section in the pull request title
 
 **Did you run into any problems?**
 
-[Describe...]
+<!--
+  I had a lot of trouble understanding the information in the given links but I was able to solve that by looking at other external resources.
+-->
 
 **Did you collaborate with others on this solution?**
 
