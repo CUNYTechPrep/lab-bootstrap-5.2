@@ -1,1 +1,23 @@
-/* Add custom css styles here */
+<link rel="stylesheet" href="css/styles.css" />
+header {
+    height: 400px;
+    background-image: url('path/to/your/image.jpg'); /* Replace with your image path or provided image */
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px; /* This gives some space around the text, adjust as needed */
+}
+
+header h1, header p {
+    margin: 0;
+    color: white; /* Change this to any color you see fit or leave it out if your background image is light */
+}
+<header>
+    <div>
+        <h1>Cookie Store</h1>
+        <p>Buy our awesome cookies. All proceeds go to charity!</p>
+    </div>
+</header>
