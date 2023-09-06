@@ -1,1 +1,42 @@
 /* Add custom css styles here */
+/* Add custom css styles here*/
+
+
+header{
+    text-align: center;
+    color: aliceblue;
+    background-image: url("../images/coffee-biscuits.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-style: italic;
+    height: 400px;
+}
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+  }
+
+h2 {
+    text-align: center;
+  }
+
+p {
+    text-align: center;
+}
+
+.aboutus{
+    background-color: rgb(220, 218, 218);
+    height: 200px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(43, 85, 192);
+    text-align: center;
+    height: 200px;
+}
