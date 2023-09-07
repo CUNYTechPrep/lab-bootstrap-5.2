@@ -1,1 +1,26 @@
 /* Add custom css styles here */
+.center {
+    text-align: center;
+}
+
+.about {
+    width: 100%; /* Adjust the width as needed */
+    height:auto; /* Adjust the height as needed */
+    border: 10px solid black;
+    background-image: url(cookies.jpg);
+    background-position: center;
+    background-size:auto;
+}
+
+header {
+    border: 10px solid black;
+}
+
+.about-us-text {
+    text-align: center;
+}
+
+footer{
+    border: 10px blue solid;
+    background-color: aqua;
+}
