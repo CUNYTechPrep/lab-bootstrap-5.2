@@ -1,21 +1,11 @@
-.cookie-item h3,
-.cookie-item p,
-.cookie-item img {
+/* Custom styles */
+header {
+    padding: 100px 0;  /* Adjust this value to change the height of your header */
+    background: url('path_to_your_image.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* Remove default margins from h1 and p within header */
+header h1, header p {
     margin: 0;
-    padding: 0;
-}
-
-.cookie-header h2,
-.cookie-header p {
-    margin: 0;
-    padding: 0;
-}
-
-footer h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-footer address {
-    font-style: normal;
 }
