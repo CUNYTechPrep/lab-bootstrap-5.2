@@ -1,23 +1,21 @@
-<link rel="stylesheet" href="css/styles.css" />
-header {
-    height: 400px;
-    background-image: url('path/to/your/image.jpg'); /* Replace with your image path or provided image */
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px; /* This gives some space around the text, adjust as needed */
+.cookie-item h3,
+.cookie-item p,
+.cookie-item img {
+    margin: 0;
+    padding: 0;
 }
 
-header h1, header p {
+.cookie-header h2,
+.cookie-header p {
     margin: 0;
-    color: white; /* Change this to any color you see fit or leave it out if your background image is light */
+    padding: 0;
 }
-<header>
-    <div>
-        <h1>Cookie Store</h1>
-        <p>Buy our awesome cookies. All proceeds go to charity!</p>
-    </div>
-</header>
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer address {
+    font-style: normal;
+}
