@@ -1,1 +1,66 @@
 /* Add custom css styles here */
+header{
+    background-image: url(../images/coffee-biscuits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 135px;
+    height: 500px;
+}
+header .container{
+    width: 50%;
+    color: white;
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+    opacity: 0.8;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+header .container .row{
+}
+header .container h1{
+    font-size: 35px;
+}
+header .container p{
+    font-size: 16px;
+}
+
+.subheading{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+main{
+    margin-bottom: 150px;
+}
+
+img{
+    border-radius: 200px;
+}
+img[src="images/bakers.svg"]{
+    height: 200px;
+    width: 200px;
+
+}
+.about-text{
+    text-align: left;
+}
+.about-section{
+    background-color: lightgrey;
+    padding-bottom: 50px;
+   
+}
+.about-section h2{
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.about-section .col-8{
+    padding-top: 40px;
+}
+
+footer{
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: rgb(43, 75, 138);
+}
+
