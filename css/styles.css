@@ -1,1 +1,37 @@
 /* Add custom css styles here */
+header{
+    background-image: url(../images/coffee-biscuits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px;
+}
+#title, #description{
+    color: white;
+    opacity: 1;
+   
+}
+#description{
+    font-size: 25px;
+}
+#title{
+    font-size: 60px;
+}
+
+.heading{
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    background-size: 50%;
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.subheading{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+main{
+    margin-bottom: 150px;
+}
