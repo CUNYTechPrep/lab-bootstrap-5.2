@@ -1,1 +1,73 @@
 /* Add custom css styles here */
+
+header 
+{
+    text-align: center;
+    height:400px;
+    background-image: url('../images/coffee-biscuits.jpg');
+    background-size:cover;
+    color:#cccccc;
+}
+
+.header_container
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    padding-bottom:60px;
+}
+.header_info
+{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.main_heading
+{
+    padding-top:40px;
+    text-align: center;
+}
+
+.bakers_img
+{
+    width:100px;
+    height:100px;
+    border-radius: 100px;
+    align-items: left;
+}
+.about-us
+{
+    background-color: rgba(24, 16, 16, 0.1);
+    height:fill;
+    width:full;
+    border-radius: 10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+
+.store_footer
+{
+    background-color: lightseagreen;
+    height:150px;
+    width:1640px;
+    border-radius: 10px;
+}
+
+.store_footer h2
+{
+    text-align: center;
+}
+.store_footer div 
+{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
