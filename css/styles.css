@@ -1,1 +1,74 @@
-/* Add custom css styles here */
+header {
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    background-image: url("/images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white; 
+    max-width: 100%;
+    height: auto; 
+
+}
+header h1 {
+    font-size: 100px;
+    text-shadow: #FC0 1px 0 10px;
+    font-weight: bold;
+}
+header p {
+    text-shadow: 5px 2px #558ABB;
+    font-size: 50px;
+    margin-top: 10px;
+    mix-blend-mode: difference;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding:20px;
+}
+  
+/* our cirlcular mask */
+img{ 
+    border-radius: 50%;
+}
+
+.text-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec{
+    height: 200px;
+    font-size:x-large;
+}
+
+.about-us{
+    background-color: #f8f9fa;
+    padding:30px;
+}
+.about-us img{
+    max-width: 100%;
+    height: auto; 
+}
+footer{
+    background-color: #056dfd;
+    color: white;
+}
