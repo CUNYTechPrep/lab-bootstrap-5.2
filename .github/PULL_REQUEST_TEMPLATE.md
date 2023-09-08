@@ -14,8 +14,8 @@ TITLE: Include your section in the pull request title
 - [ ] Tuesday
 - [ ] Wednesday
 - [ ] Thursday
-- [ x ] Friday 3pm
-- [ ] Friday 6pm
+- [ ] Friday 3pm
+- [X] Friday 6pm
 
 **Is the solution complete?**
 
