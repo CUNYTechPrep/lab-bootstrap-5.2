@@ -1,1 +1,33 @@
 /* Add custom css styles here */
+
+
+.header {
+    color: white;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+.backgroundImage {
+    /* background-image: url('images\coffee-biscuits.jpg'); */
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer{
+    height: auto;
+    background-color: rgb(87, 87, 255);
+    color: white;
+    text-align: center;
+}
+
+.aboutUs img{
+    max-width: 200px; 
+    height: auto; 
+}
+
