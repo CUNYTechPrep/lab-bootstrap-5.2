@@ -1,1 +1,53 @@
 /* Add custom css styles here */
+
+
+.round
+{
+    border-radius: 150%;
+}
+
+.overlay {
+    background-image:
+    url("/lab-bootstrap-5.2/images/coffee-biscuits.jpg"); 
+    background-size: cover; 
+    width: auto;
+    height: 50%;
+    padding-bottom: 50%;
+    display: flexbox;
+    flex-direction: column;
+}
+.mainbody
+{
+    padding-top: 20px;
+}
+
+.headerText{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(49, 48, 45, 0.6);
+    color: #FFF;
+    display: flexbox;
+
+    position: sticky;
+    
+    left: 500px;
+    width: 500px;
+    padding-top: 2%;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.aboutus{
+    background-color: aliceblue;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.foot{
+     padding-top: 20px;
+    background-color: rgb(84, 84, 255);
+    color: #FFF;
+    padding-bottom: 20px;
+
+}
