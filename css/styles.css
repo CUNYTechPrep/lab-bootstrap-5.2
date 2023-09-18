@@ -1,1 +1,48 @@
 /* Add custom css styles here */
+
+/* Header styles */
+header {
+    height: 400px;
+    background: url('../images/web_first_images_release.png') center center/cover no-repeat;
+  }
+  
+  header .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  header h1,
+  header p {
+    color: white;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px 0;
+  }
+  
+  main h2,
+  main p {
+    text-align: center;
+  }
+  
+  /* About Us section styles */
+  section {
+    padding: 40px 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h2 {
+    margin-bottom: 10px;
+  }
+  
